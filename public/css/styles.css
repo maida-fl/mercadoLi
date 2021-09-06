@@ -18,6 +18,8 @@ p{
 }
 
 div.top-header{
+    display: flex;
+    flex-wrap:wrap;
     padding: 5%;
 }
 
@@ -31,7 +33,8 @@ header{
     background-color: #EAC926;
 }
 
-header div.logo{
+header div.logo,
+header .form{
     width: 50%;
 }
 
@@ -39,6 +42,7 @@ header div.logo{
     padding: 10px;
 }
 header .form{
+    display: flex;
     align-items: center;
     padding: 2px;
     font-size: 11px;
@@ -66,17 +70,20 @@ header .form .input{
     outline: none;
     color: #666;
     padding: 1px;
-    width: 55%;
+    padding-left: 2px;
+    width: 500px;
     margin-bottom: 1px;
+    border-radius: 1px;
 }
 
 header .form .submit{
     background-color: #FFF;
     border: 1px solid #666;
     color: #000;
-    width: 5%;
+    width: 20px;
     text-align: center;
     padding: 1px 1px;
+    border-radius: 1px;
 }
 
 div.burger-menu{
@@ -201,6 +208,16 @@ footer section i {
         display: block;
     }
 
+    header div.logo,
+    header .form{
+        width: 30%;
+    }
+
+    header div.top-header p{
+        width: 40%;
+        margin-top: 3.5%;
+    } 
+
     div.burger-menu {
         display: none;
     }
@@ -213,6 +230,14 @@ footer section i {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
     main section div.products article{
         width: 45%;
     }
@@ -227,6 +252,11 @@ footer section i {
     main section div.products article{
         width: 22%;
     }
+
+    header div.top-header p{
+        width: 40%;
+        margin-top: 4%;
+    } 
 }
 
 
