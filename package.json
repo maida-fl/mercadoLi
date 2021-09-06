@@ -1,0 +1,23 @@
+{
+  "name": "mercadoli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maida-fl/mercadoLi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maida-fl/mercadoLi/issues"
+  },
+  "homepage": "https://github.com/maida-fl/mercadoLi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
