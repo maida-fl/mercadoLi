@@ -47,12 +47,14 @@ header .form{
     padding: 2px;
     font-size: 11px;
 }
-header nav{
+.main-nav-bar{
     font-size: 12px;
     margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 20px;
     line-height: 17px;
     display: none;
+
 }
 
 header ul li{
@@ -204,8 +206,14 @@ footer section i {
 }
 
 @media (min-width: 361px){
-    header nav {
-        display: block;
+    .main-nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-nav-bar li {
+        margin: 0 5px;
+     
     }
 
     header div.logo,
@@ -220,6 +228,10 @@ footer section i {
 
     div.burger-menu {
         display: none;
+    }
+
+    .main-nav-bar ul {
+        display: flex;
     }
 
     main section article .description{
