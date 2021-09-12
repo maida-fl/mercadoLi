@@ -3,10 +3,10 @@
         <form action="" method="POST">
 
                 <label for="fullName">Nombre y apellido</label>
-                <input type="text" name="fullName" id="fullName" placeholder="Nombre completo">
+                <input type="text" name="fullName" id="fullName" placeholder="Nombre completo" minlength="3">
 
                 <label for="user">Nombre de usuario</label>
-                <input type="text" name="user" id="user" placeholder="Nombre de usuario">
+                <input type="text" name="user" id="user" placeholder="Nombre de usuario" required>
     
                 <label for="birthdate">Fecha de nacimiento</label>
                 <input type="date" name="birthdate" id="birthdate">
@@ -64,12 +64,12 @@
                 </div>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required minlength="8">
 
                 <label for="password_confirmation">Confirmar Password</label>
-                <input type="password" name="password_confirmation" id="password_confirmation">
+                <input type="password" name="password_confirmation" id="password_confirmation" required>
 
-                <button class="register-button"><a href="/">Enviar</a></button>
+                <button class="submit" type="submit"><a href="/">Enviar</a></button>
             
                 <button type="reset">Borrar</button>
   
