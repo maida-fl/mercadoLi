@@ -257,7 +257,7 @@ footer section i:hover{
     .price,
     .discount{
         width: 50%;
-    }
+    } 
 }
 
 
@@ -401,7 +401,7 @@ section.perfil-usuario {
     margin-bottom: 3px;
 }
 
-.btn-signup a {
+.btn-signup {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
