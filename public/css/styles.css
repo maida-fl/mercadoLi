@@ -69,6 +69,7 @@ header .search{
 
 header ul li{
     list-style-type: none;
+    padding-right: 10px;
 }
 
 header ul li a{
@@ -278,7 +279,7 @@ footer section i:hover{
     }
 
     header div.top-header p{
-        width: 40%;
+        width: 30%;
         margin-top: 3.5%;
     } 
 
