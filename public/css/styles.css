@@ -139,9 +139,22 @@ h3,
     color: #666;
 }
 
-.description{
+article .description{
     display: none;
     margin-top: 20px;
+    transition: all ease 700ms;
+}
+
+article:hover .description {
+    display: block;
+}
+
+.fas{
+    transition: transform ease 700ms;
+}
+
+article:hover .fas{
+    transform: rotate(-90deg);
 }
 
 section.banner img{
@@ -156,6 +169,11 @@ main{
 main section article{
     background-color: #fff;    
     margin: 10px 0px;
+    transition: all ease 500ms;
+}
+
+main section article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section article img{
@@ -213,7 +231,13 @@ footer section i {
     font-size: 2em;
     margin-bottom: 10px;
     color: #0F45A1;
+    transition: all ease 500ms;
 }
+
+footer section i:hover{
+    color: #EAC926;
+} 
+
 
 @media (min-width: 361px){
     .main-nav-bar {
@@ -243,14 +267,6 @@ footer section i {
     .main-nav-bar ul {
         display: flex;
     }
-
-    main section article .description{
-        display: block;
-    }
-
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
     
     main section div.products{
         display: flex;
@@ -270,6 +286,7 @@ footer section i {
     }
 }
 
+
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
@@ -279,7 +296,25 @@ footer section i {
         width: 40%;
         margin-top: 4%;
     } 
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    footer section {
+        width: 33%;
+    } 
+
+    p.copyright {
+        width: 100%;
+        padding-top: 20px;
+    }
+
 }
+
+
 
 
 
@@ -419,6 +454,11 @@ section.perfil-usuario {
     width: 100%;
     margin-top: 40px;
     margin-bottom: 30px;
+}
+
+.login .btn-signup:hover {
+    background-color: #0022AA;
+    scale: (0.98);
 }
 
 .login .form-control {
