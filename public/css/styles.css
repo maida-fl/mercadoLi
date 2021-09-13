@@ -1,3 +1,13 @@
+/* 
+Amarillo: #EAC926; 
+Azul: #03264C; 
+Celeste: #1259c3; 
+Gris oscuro: #666; 
+Gris claro: #ebebeb; 
+Verde: #39b54a;
+ */
+
+
 *{
     margin: 0px;
     padding: 0px;    
@@ -272,3 +282,145 @@ footer section i {
 }
 
 
+
+
+/* Register */
+
+section.page-title h2{
+    font-size: 24px;
+    color: #3e4749;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.wrapper-form{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-wrap {
+    margin-bottom: 20px;
+} 
+
+label.form-label,
+.input-wrap p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.perfil-usuario .form-label{
+    font-weight: normal;
+}
+
+.form-label {
+    width: 100%;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.checkbox label {
+    font-size: 12px;
+}
+.form-control {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(62, 71, 73, 0.3);
+    color: #3e4749;
+    transition: 500ms ease all;
+} 
+
+.form-control:hover {
+    border: 1px solid #a6772a;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #a6772a;
+}
+
+section.perfil-usuario {
+    display: flex;
+    max-width: 270px;
+
+}
+
+.perfil-usuario label {
+    margin-left: 5px;
+}
+
+.checkbox label {
+    margin-left: 5px;
+}
+.checkbox {
+    margin-bottom: 3px;
+}
+
+.btn-signup a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-signup {
+    margin-top: 10px;
+    width: 69.5%;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    background-color:#1259c3;
+    border-radius: 5px;
+    max-width: 350px;
+    transition: 500ms ease all;
+}
+
+.btn-reset {
+    margin-top: 10px;
+    width: 30%;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #666;
+    border-radius: 5px;
+    max-width: 350px;
+    transition: 500ms ease all;
+}
+
+.btn-signup:hover {
+    background-color: #03264C;
+    scale: (0.98);
+}
+
+.btn-reset:hover {
+    background-color: #3e4749;
+    scale: (0.98);
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Login */
+.login .btn-signup {
+    max-width: none;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.login .form-control {
+    margin-bottom: 20px;
+}
