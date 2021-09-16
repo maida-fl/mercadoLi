@@ -36,7 +36,6 @@ div.top-header{
 header div.top-header p{
     width: 100%;
     text-align: center;
-    margin-top: 10px;
 }
 
 header{
@@ -84,7 +83,7 @@ header .search input{
     color: #666;
     padding: 1px;
     padding-left: 2px;
-    width: 500px;
+    width: 90%;
     margin-bottom: 1px;
     border-radius: 1px;
 }
@@ -212,6 +211,7 @@ article div.main-article{
     border-top: 1px solid #ebebeb;
     position: relative;
     padding: 15px;
+    /* max-height: 91px; */
 }
 
 footer {
@@ -279,9 +279,14 @@ footer section i:hover{
     }
 
     header div.top-header p{
-        width: 30%;
-        margin-top: 3.5%;
+        width: 35%;
+        /* margin-top: 3.5%; */
     } 
+
+    div.top-header {
+        justify-content: space-between;
+        align-items: center;
+    }
 
     div.burger-menu {
         display: none;
@@ -294,11 +299,6 @@ footer section i:hover{
     main section div.products article{
         width: 22%;
     }
-
-    header div.top-header p{
-        width: 40%;
-        margin-top: 4%;
-    } 
 
     footer {
         display: flex;
