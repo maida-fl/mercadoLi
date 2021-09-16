@@ -137,6 +137,7 @@ div.offers{
 
 .discount{
     width: 70%;
+    text-align: left;
 }
 
 .discount,
@@ -222,7 +223,6 @@ article div.main-article{
     border-top: 1px solid #ebebeb;
     position: relative;
     padding: 15px;
-    /* max-height: 91px; */
 }
 
 /* FOOTER */
@@ -253,7 +253,7 @@ footer section i:hover{
 } 
 
 
-@media (min-width: 361px){
+@media (min-width: 769px){
 
     main section div.products{
         display: flex;
@@ -270,11 +270,11 @@ footer section i:hover{
     .price,
     .discount{
         width: 50%;
-    } 
+    }
 }
 
 
-@media (min-width: 769px){
+@media (min-width: 1024px){
 
     .main-nav-bar {
         display: flex;
