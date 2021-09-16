@@ -39,6 +39,7 @@ header div.top-header p{
     width: 100%;
     text-align: center;
     padding-top: 20px;
+    font-size: 14px;
 }
 
 header{
@@ -55,6 +56,7 @@ header div.logo{
 }
 header .search{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 2px;
     font-size: 11px;
@@ -65,7 +67,7 @@ header .search input{
     border: none;
     outline: none;
     color: #666;
-    padding: 6px;
+    padding: 7px;
     width: 90%;
     border-radius: 1px;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
@@ -75,9 +77,8 @@ header .search-button {
     background-color: #FFF;
     border: none;
     color: #666;
-    /* width: 20px; */
     text-align: center;
-    padding: 6px;
+    padding: 7px;
     border-radius: 1px;
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
 }
@@ -100,6 +101,7 @@ header .search-button i {
 header ul li{
     list-style-type: none;
     padding-right: 10px;
+    font-size: 14px;
 }
 
 header ul li a{
@@ -255,6 +257,10 @@ footer section i:hover{
 
 @media (min-width: 769px){
 
+    header div.top-header p{
+        font-size: 16px;
+    }    
+
     main section div.products{
         display: flex;
         flex-direction: row;
@@ -275,6 +281,10 @@ footer section i:hover{
 
 
 @media (min-width: 1024px){
+
+    /* header div.top-header p{
+        font-size: 16px;
+    }   */
 
     .main-nav-bar {
         display: flex;
