@@ -160,12 +160,7 @@ h3,
 
 article .description{
     display: none;
-    margin-top: 20px;
-    /* transition: all ease 700ms; */
-}
-
-article:hover .description {
-    display: block;
+    margin-top: 12px;
 }
 
 .main-article .fas{
@@ -237,6 +232,7 @@ article div.main-article{
 footer {
     background-color: #fff;
     color: #666;
+    margin-top: 10px;
 }
 
 footer section {
@@ -276,6 +272,14 @@ footer section i:hover{
 
     main section div.products article{
         width: 45%;
+    }
+
+    article:hover .description {
+        display: block;
+    }
+    
+    article div.main-article {
+        height: 85px;
     }
 
     .price,
