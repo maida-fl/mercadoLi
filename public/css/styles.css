@@ -258,6 +258,10 @@ footer section i:hover{
 
 @media (min-width: 769px){
 
+    div.top-header{
+        padding: 4%;
+    }
+
     header div.top-header p{
         font-size: 16px;
     }    
@@ -291,13 +295,14 @@ footer section i:hover{
 
 @media (min-width: 1024px){
 
-    /* header div.top-header p{
-        font-size: 16px;
-    }   */
+    div.top-header{
+        padding: 3%;
+    }
 
     .main-nav-bar {
         display: flex;
         justify-content: space-between;
+        padding-bottom: 25px;
     }
 
     .main-nav-bar li {
