@@ -42,6 +42,11 @@ header div.top-header p{
     font-size: 14px;
 }
 
+.top-header i{
+    margin-right: 3px;
+
+}
+
 header{
     background-color: #EAC926;
 }
@@ -156,18 +161,18 @@ h3,
 article .description{
     display: none;
     margin-top: 20px;
-    transition: all ease 700ms;
+    /* transition: all ease 700ms; */
 }
 
 article:hover .description {
     display: block;
 }
 
-.fas{
-    transition: transform ease 700ms;
+.main-article .fas{
+    transition: transform ease 900ms;
 }
 
-article:hover .fas{
+article:hover .main-article .fas{
     transform: rotate(-90deg);
 }
 
@@ -247,11 +252,11 @@ footer section i {
     font-size: 2em;
     margin-bottom: 10px;
     color: #0F45A1;
-    transition: all ease 500ms;
+    transition: all ease-in-out 400ms;
 }
 
 footer section i:hover{
-    color: #EAC926;
+    color: #5078BB;
 } 
 
 
@@ -341,10 +346,6 @@ footer section i:hover{
 }
 
 
-
-
-
-
 /* Register */
 
 section.page-title h2{
@@ -391,7 +392,7 @@ label.form-label,
     width: 100%;
     font-size: 14px;
     padding: 12px;
-    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid rgba(62, 71, 73, 0.3);
     color: #3e4749;
@@ -422,6 +423,10 @@ section.perfil-usuario {
 }
 .checkbox {
     margin-bottom: 3px;
+}
+
+.foto-usuario input {
+    margin-bottom: 5px;
 }
 
 .btn-signup {
